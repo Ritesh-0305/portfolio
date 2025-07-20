@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ritesh Sontakke | Java-Full-Stack & DevOps</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+    <!-- HERO PHOTO + OVERLAY -->
+<section id="hero-photo">
+  <div class="photo-wrapper">
+    <img src="ritesh.jpg" alt="Ritesh Sontakke" class="hero-photo">
+    <div class="photo-overlay">
+      <h1>Ritesh Sontakke</h1>
+      <p>Java Full-Stack & DevOps Engineer</p>
+    </div>
+  </div>
+</section>
+  <!-- NAVIGATION -->
+  
+<nav id="navbar">
+    <div class="container">
+       <a href="#hero" class="logo">Ritesh</a>
+        
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="theme-toggle" aria-label="Toggle dark mode">
+        <i class="fas fa-moon"></i>
+      </button>
+      <button class="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="container hero-content">
+      <h1>Hi, I'm Ritesh Sontakke</h1>
+      <p>MCA student • Java Full-Stack Developer • DevOps Enthusiast</p>
+      <div class="cta">
+        <a href="#contact" class="btn primary">Contact Me</a>
+        <a href="ritesh-resume.pdf" target="_blank" class="btn secondary">Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I'm currently pursuing my MCA with a passion for building scalable backend services,
+        elegant front-end experiences, and automating everything in between.
+        From Spring Boot micro-services to Docker pipelines, I love turning ideas into production-grade software.
+      </p>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <h2>Featured Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <img src="landing.png" alt="Quiz App screenshot"/>
+          <div class="card-body">
+            <h3>Quiz Application</h3>
+            <p>Spring Boot REST API + PostgreSQL + React. JWT auth, timer-based quizzes, admin dashboard.</p>
+            <a href="https://github.com/Ritesh-Codes/Quiz-App/tree/my-new-branch" target="_blank" class="btn primary small">GitHub</a>
+            
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="movie.png" alt="Movie Search screenshot"/>
+          <div class="card-body">
+            <h3>Movie Search</h3>
+            <p>React + OMDb API. Debounced search, infinite scroll, dark mode, PWA.</p>
+            <a href="https://github.com/Ritesh-Codes/Movie_Stream_project/tree/my-new-branch/Movie" target="_blank" class="btn primary small">GitHub</a>
+             </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <h2>Skills & Tools</h2>
+      <ul class="skills-list">
+        <li>Java • Spring Boot • Hibernate</li>
+        <li>JavaScript • React • TypeScript</li>
+        <li>MySQL • PostgreSQL • MongoDB</li>
+        <li>Docker • Kubernetes • Jenkins • GitHub Actions</li>
+        <li>AWS (EC2, S3, RDS) • Linux • Shell Scripting</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <h2>Get In Touch</h2>
+      <p>Email me at <a href="mailto:riteshsontakke@email.com">riteshsontakke0305@email.com</a></p>
+      <div class="socials">
+        <a href="https://github.com/ritesh-Codes" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/ritesh0305?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://x.com/272Sontakke?t=BHNhjA6NR06ZB2XtixN__w&s=09" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> Ritesh Sontakke. Built with ❤️ and vanilla code.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
